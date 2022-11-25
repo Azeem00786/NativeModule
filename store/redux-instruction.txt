@@ -1,0 +1,8 @@
+step1- install package 
+npm install --save react react-redux redux-thunk
+redux thunk is used for asynch
+step2-make a store folder under root folder and make 2 fire on for action and another for reducer 
+define your function which is dispcached from any component function retutn type and payload
+under reducer define a initial state object, under this object define define initial state for your different variabel state.
+define a reducer function which take 2 argument first is initial state and second action.
+on the basis of action perform any logic and update your current state.

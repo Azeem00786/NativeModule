@@ -1,0 +1,16 @@
+step1- Make a folder e.g-navigation
+step2-make another folder for your all screens e.g-screens
+step3-Under your Screens folder make different components for different screens e.g-Home.js,About.js etc..
+step4-go to your navigation folder and create a navigator components.
+because we are using v4 so i am using this 
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+ instead of 
+import { createAppContainer, createStackNavigator } from 'react-navigation';
+step5- create an createStackNavigator({}) this will be an object (take 2 arg) which hold all your screen with an
+identifer e.g-
+home:HomeScreen identifier name up to you which you want in my case 'home' home is identifier for my HomeScreen.js components
+about:AboutScreen
+
+
+
