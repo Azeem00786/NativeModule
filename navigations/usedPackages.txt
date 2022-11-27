@@ -1,0 +1,6 @@
+1-react native navigation
+2-vector Ionicon
+3-Header buttons
+4-Redux and Redux Thunk
+5-Camera roll and permissions package
+6-FileSystem
